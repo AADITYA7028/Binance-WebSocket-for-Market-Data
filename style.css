@@ -1,0 +1,107 @@
+/* body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+#cryptoSelect,
+#intervalSelect {
+    padding: 10px;
+    margin: 10px;
+}
+
+canvas {
+    background-color: white;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+} */
+/* General body styling */
+/* Reset some basic elements for consistency across browsers */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: #121212; /* Dark background */
+    color: #FFFFFF; /* White text for contrast */
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-size: 2.5em;
+    color: #BB86FC; /* Accent color */
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+label {
+    font-size: 1.1em;
+    margin-right: 10px;
+}
+
+#cryptoSelect,
+#intervalSelect {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #1F1B24;
+    color: #FFFFFF;
+    font-size: 1em;
+    outline: none;
+}
+
+#cryptoSelect:hover,
+#intervalSelect:hover {
+    background-color: #2A2633;
+}
+
+canvas {
+    background-color: #1F1B24;
+    border: 1px solid #BB86FC; /* Accent color for the border */
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.chart-container {
+    position: relative;
+    margin: auto;
+    height: 500px;
+    width: 100%;
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #888;
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    .controls {
+        flex-direction: column;
+    }
+
+    #cryptoSelect,
+    #intervalSelect {
+        width: 80%;
+    }
+}
+
